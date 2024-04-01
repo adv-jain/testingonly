@@ -43,6 +43,10 @@ function App() {
   const finish = () => {
     document.getElementById('output').innerHTML = 'All tasks completed'
     document.body.style.background = 'url(https://i.pinimg.com/originals/12/4d/e3/124de3d1b5e12f1d8fcec1685e634361.gif)'
+
+    setTimeout(() => {
+    document.body.style.background = ''
+    }, 3000);
   }
 
   // useEffect(() => {
